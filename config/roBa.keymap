@@ -67,10 +67,10 @@
 
         default_layer {
             bindings = <
-&kp Q  &kp P  &kp U         &kp Y           &kp GREATER_THAN                                    &kp J        &kp D  &kp H  &kp G  &kp W
-&kp I  &kp O  &kp E         &kp A           &kp LESS_THAN     &mkp LCLK        &kp LEFT_BRACE   &kp K        &kp T  &kp N  &kp S  &kp R
-&kp Z  &kp X  &kp QUESTION  &kp C           &kp SEMICOLON     &lt 5 TILDE      &kp RIGHT_BRACE  &kp M        &kp L  &kp F  &kp B  &kp V
-&mo 1  &mo 3  &mo 2         &kp LEFT_SHIFT  &kp LCTRL         &kp BACKSPACE    &kp SPACE        &lt 1 ENTER                       &kp RIGHT_ALT
+&kp Q  &kp P  &kp U      &kp Y           &kp PERIOD                                         &kp J        &kp D  &kp H  &kp G  &kp W
+&kp I  &kp O  &kp E      &kp A           &kp COMMA      &mkp LCLK        &kp LEFT_BRACKET   &kp K        &kp T  &kp N  &kp S  &kp R
+&kp Z  &kp X  &kp SLASH  &kp C           &kp SEMICOLON  &lt 5 SQT        &kp RIGHT_BRACKET  &kp M        &kp L  &kp F  &kp B  &kp V
+&mo 1  &mo 3  &mo 2      &kp LEFT_SHIFT  &kp LCTRL      &kp BACKSPACE    &kp SPACE          &lt 1 ENTER                       &kp RIGHT_ALT
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -80,7 +80,7 @@
             bindings = <
 &trans  &trans  &trans  &trans          &kp MINUS                                  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &none   &none
 &trans  &trans  &trans  &trans          &kp EQUAL             &trans       &trans  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &none   &none
-&trans  &trans  &trans  &trans          &kp NON_US_BACKSLASH  &kp TILDE    &trans  &kp N7        &kp N8        &kp N9        &kp N0  &none
+&trans  &trans  &trans  &trans          &kp NON_US_BACKSLASH  &kp GRAVE    &trans  &kp N7        &kp N8        &kp N9        &kp N0  &none
 &trans  &trans  &trans  &kp LEFT_SHIFT  &trans                &trans       &trans  &trans                                            &none
             >;
         };
