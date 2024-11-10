@@ -69,7 +69,7 @@
             bindings = <
 &kp Q   &kp P   &kp U         &kp Y           &kp GREATER_THAN                                    &kp J        &kp D  &kp H  &kp G  &kp W
 &kp A   &kp S   &kp D         &kp F           &kp LESS_THAN     &mkp LCLK        &kp LEFT_BRACE   &kp K        &kp T  &kp N  &kp S  &kp R
-&kp Z   &kp X   &kp QUESTION  &kp C           &kp SEMICOLON     &kp SQT          &kp RIGHT_BRACE  &kp M        &kp L  &kp F  &kp B  &kp V
+&kp Z   &kp X   &kp QUESTION  &kp C           &kp SEMICOLON     &lt 5 TILDE      &kp RIGHT_BRACE  &kp M        &kp L  &kp F  &kp B  &kp V
 &tog 1  &tog 3  &tog 2        &kp LEFT_SHIFT  &kp LCTRL         &kp BACKSPACE    &kp SPACE        &lt 1 ENTER                       &kp RIGHT_ALT
             >;
 
@@ -107,11 +107,13 @@
 
         MOUSE {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                    &trans  &trans    &trans    &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans    &trans    &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                                &trans
+&trans  &trans  &trans  &trans  &trans                                                           &trans  &trans    &trans    &trans    &trans
+&trans  &trans  &trans  &trans  &trans                                &trans             &trans  &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
+&trans  &trans  &trans  &trans  &trans                                &trans             &trans  &trans  &trans    &trans    &trans    &trans
+&trans  &trans  &trans  &trans  &kp C_KEYBOARD_INPUT_ASSIST_PREVIOUS  &kp C_KBIA_NEXT    &trans  &trans                                &trans
             >;
+
+            sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
         };
 
         SCROLL {
