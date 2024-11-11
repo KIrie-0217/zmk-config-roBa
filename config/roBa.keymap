@@ -73,7 +73,7 @@
 &mo 1  &mo 3  &mo 2      &kp LEFT_SHIFT  &kp LCTRL      &kp BACKSPACE    &kp SPACE          &lt 1 ENTER                       &kp RIGHT_ALT
             >;
 
-            sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
+            sensor-bindings = <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
         };
 
         num {
@@ -107,13 +107,13 @@
 
         MOUSE {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                                                           &trans  &trans    &trans    &trans    &trans
-&trans  &trans  &trans  &trans  &trans                                &trans             &trans  &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
-&trans  &trans  &trans  &trans  &trans                                &trans             &trans  &trans  &trans    &trans    &trans    &trans
-&trans  &trans  &trans  &trans  &kp C_KEYBOARD_INPUT_ASSIST_PREVIOUS  &kp C_KBIA_NEXT    &trans  &trans                                &trans
+&trans  &trans  &trans  &trans  &trans                                &trans  &trans    &trans    &trans    &trans
+&trans  &trans  &trans  &trans  &trans          &trans        &trans  &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
+&trans  &trans  &trans  &trans  &trans          &trans        &trans  &trans  &trans    &trans    &trans    &trans
+&trans  &trans  &trans  &trans  &kp K_PREVIOUS  &kp K_NEXT    &trans  &trans                                &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
+            sensor-bindings = <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
         };
 
         SCROLL {
