@@ -78,7 +78,7 @@
             bindings = <
 &kp Q  &kp P  &kp U         &kp Y           &kp PERIOD                                         &kp J        &kp D  &kp H  &kp G  &kp W
 &kp I  &kp O  &kp E         &kp A           &kp COMMA      &mkp LCLK        &kp LEFT_BRACKET   &kp K        &kp T  &kp N  &kp S  &kp R
-&kp Z  &kp X  &kp SLASH     &kp C           &kp SEMICOLON  &lt 5 SQT        &kp RIGHT_BRACKET  &kp M        &kp L  &kp F  &kp B  &kp V
+&kp Z  &kp X  &kp V         &kp C           &kp SEMICOLON  &lt 5 SQT        &kp RIGHT_BRACKET  &kp M        &kp L  &kp F  &kp B  &kp SLASH
 &mo 2  &mo 3  &kp LEFT_GUI  &kp LEFT_SHIFT  &kp LCTRL      &kp BACKSPACE    &lt 1 SPACE        &lt 6 ENTER                       &kp RIGHT_ALT
             >;
 
