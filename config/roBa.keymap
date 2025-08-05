@@ -73,11 +73,10 @@
             #binding-cells = <2>;
             tapping-term-ms = <200>;
         };
-         encoder_msc_down_up: encoder_msc_down_up {
+         scroll_up_down: behavior_sensor_rotate_mouse_wheel_up_down {
             compatible = "zmk,behavior-sensor-rotate";
-            label = "ENCODER_MSC_DOWN_UP";
             #sensor-binding-cells = <0>;
-            bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>;
+            bindings = <&msc SCRL_UP>, <&msc SCRL_DOWN>;
             tap-ms = <20>;
         };
     };
@@ -93,7 +92,7 @@
 &mo 6  &kp A  &kp LCTRL  &kp LEFT_GUI  &kp LEFT_SHIFT   &kp BACKSPACE      &lt 1 SPACE        &lt 3 ENTER                       &kp RALT
             >;
 
-            sensor-bindings = <&encoder_msc_down_up>;
+            sensor-bindings = <&scroll_up_down>;
         };
 
         FUNCTION {
@@ -122,7 +121,7 @@
 &trans          &trans                  &trans          &trans                   &trans   &trans      &trans  &trans                                             &trans
             >;
 
-            sensor-bindings = <&encoder_msc_down_up>;
+            sensor-bindings = <&scroll_up_down>;
         };
 
         MOUSE {
@@ -133,7 +132,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                              &trans
             >;
 
-            sensor-bindings = <&encoder_msc_down_up>;
+            sensor-bindings = <&scroll_up_down>;
         };
 
         SCROLL {
@@ -144,7 +143,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
             >;
 
-            sensor-bindings = <&encoder_msc_down_up>;
+            sensor-bindings = <&scroll_up_down>;
         };
 
         layer_6 {
